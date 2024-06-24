@@ -14,6 +14,15 @@
 		AE5CD4752C209D9D00B38442 /* fashionAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5CD4742C209D9D00B38442 /* fashionAITests.swift */; };
 		AE5CD47F2C209D9D00B38442 /* fashionAIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5CD47E2C209D9D00B38442 /* fashionAIUITests.swift */; };
 		AE5CD4812C209D9D00B38442 /* fashionAIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5CD4802C209D9D00B38442 /* fashionAIUITestsLaunchTests.swift */; };
+		AE5CD48F2C20AF8400B38442 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AE5CD48E2C20AF8400B38442 /* FirebaseAuth */; };
+		AE5CD4912C20AF8400B38442 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = AE5CD4902C20AF8400B38442 /* FirebaseFirestore */; };
+		AE5CD4932C20AFF700B38442 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE5CD4922C20AFF700B38442 /* GoogleService-Info.plist */; };
+		AE5CD49D2C290D1200B38442 /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5CD49C2C290D1200B38442 /* WelcomePage.swift */; };
+		AE5CD49F2C290D6000B38442 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5CD49E2C290D6000B38442 /* HomePage.swift */; };
+		AE5CD4A22C290FCA00B38442 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5CD4A12C290FCA00B38442 /* Profile.swift */; };
+		AE5CD4A42C290FDA00B38442 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5CD4A32C290FDA00B38442 /* Camera.swift */; };
+		AE5CD4A62C290FE600B38442 /* Suggestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5CD4A52C290FE600B38442 /* Suggestions.swift */; };
+		AE5CD4A82C291DD200B38442 /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5CD4A72C291DD200B38442 /* AppStateManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +53,13 @@
 		AE5CD47A2C209D9D00B38442 /* fashionAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fashionAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5CD47E2C209D9D00B38442 /* fashionAIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fashionAIUITests.swift; sourceTree = "<group>"; };
 		AE5CD4802C209D9D00B38442 /* fashionAIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fashionAIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AE5CD4922C20AFF700B38442 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AE5CD49C2C290D1200B38442 /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
+		AE5CD49E2C290D6000B38442 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		AE5CD4A12C290FCA00B38442 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		AE5CD4A32C290FDA00B38442 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		AE5CD4A52C290FE600B38442 /* Suggestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suggestions.swift; sourceTree = "<group>"; };
+		AE5CD4A72C291DD200B38442 /* AppStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE5CD48F2C20AF8400B38442 /* FirebaseAuth in Frameworks */,
+				AE5CD4912C20AF8400B38442 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,9 +112,14 @@
 		AE5CD4622C209D9B00B38442 /* fashionAI */ = {
 			isa = PBXGroup;
 			children = (
+				AE5CD4A02C290FB800B38442 /* Views */,
 				AE5CD4632C209D9B00B38442 /* fashionAIApp.swift */,
 				AE5CD4652C209D9B00B38442 /* ContentView.swift */,
+				AE5CD49C2C290D1200B38442 /* WelcomePage.swift */,
+				AE5CD49E2C290D6000B38442 /* HomePage.swift */,
+				AE5CD4A72C291DD200B38442 /* AppStateManager.swift */,
 				AE5CD4672C209D9D00B38442 /* Assets.xcassets */,
+				AE5CD4922C20AFF700B38442 /* GoogleService-Info.plist */,
 				AE5CD4692C209D9D00B38442 /* Preview Content */,
 			);
 			path = fashionAI;
@@ -127,6 +150,16 @@
 			path = fashionAIUITests;
 			sourceTree = "<group>";
 		};
+		AE5CD4A02C290FB800B38442 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE5CD4A12C290FCA00B38442 /* Profile.swift */,
+				AE5CD4A32C290FDA00B38442 /* Camera.swift */,
+				AE5CD4A52C290FE600B38442 /* Suggestions.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +176,10 @@
 			dependencies = (
 			);
 			name = fashionAI;
+			packageProductDependencies = (
+				AE5CD48E2C20AF8400B38442 /* FirebaseAuth */,
+				AE5CD4902C20AF8400B38442 /* FirebaseFirestore */,
+			);
 			productName = fashionAI;
 			productReference = AE5CD4602C209D9B00B38442 /* fashionAI.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +252,9 @@
 				Base,
 			);
 			mainGroup = AE5CD4572C209D9B00B38442;
+			packageReferences = (
+				AE5CD48D2C20AF8400B38442 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = AE5CD4612C209D9B00B38442 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +273,7 @@
 			files = (
 				AE5CD46B2C209D9D00B38442 /* Preview Assets.xcassets in Resources */,
 				AE5CD4682C209D9D00B38442 /* Assets.xcassets in Resources */,
+				AE5CD4932C20AFF700B38442 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +298,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE5CD49F2C290D6000B38442 /* HomePage.swift in Sources */,
+				AE5CD4A22C290FCA00B38442 /* Profile.swift in Sources */,
 				AE5CD4662C209D9B00B38442 /* ContentView.swift in Sources */,
+				AE5CD49D2C290D1200B38442 /* WelcomePage.swift in Sources */,
+				AE5CD4A42C290FDA00B38442 /* Camera.swift in Sources */,
 				AE5CD4642C209D9B00B38442 /* fashionAIApp.swift in Sources */,
+				AE5CD4A82C291DD200B38442 /* AppStateManager.swift in Sources */,
+				AE5CD4A62C290FE600B38442 /* Suggestions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +635,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AE5CD48D2C20AF8400B38442 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.28.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AE5CD48E2C20AF8400B38442 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE5CD48D2C20AF8400B38442 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		AE5CD4902C20AF8400B38442 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE5CD48D2C20AF8400B38442 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AE5CD4582C209D9B00B38442 /* Project object */;
 }
