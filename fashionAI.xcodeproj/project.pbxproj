@@ -23,6 +23,8 @@
 		AE5CD4A42C290FDA00B38442 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5CD4A32C290FDA00B38442 /* Camera.swift */; };
 		AE5CD4A62C290FE600B38442 /* Suggestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5CD4A52C290FE600B38442 /* Suggestions.swift */; };
 		AE5CD4A82C291DD200B38442 /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5CD4A72C291DD200B38442 /* AppStateManager.swift */; };
+		AE5CD4AA2C2A509700B38442 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5CD4A92C2A509700B38442 /* ImagePicker.swift */; };
+		AE5CD4AC2C2A613400B38442 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = AE5CD4AB2C2A613400B38442 /* FirebaseStorage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,7 @@
 		AE5CD4A32C290FDA00B38442 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 		AE5CD4A52C290FE600B38442 /* Suggestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suggestions.swift; sourceTree = "<group>"; };
 		AE5CD4A72C291DD200B38442 /* AppStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateManager.swift; sourceTree = "<group>"; };
+		AE5CD4A92C2A509700B38442 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,7 @@
 			files = (
 				AE5CD48F2C20AF8400B38442 /* FirebaseAuth in Frameworks */,
 				AE5CD4912C20AF8400B38442 /* FirebaseFirestore in Frameworks */,
+				AE5CD4AC2C2A613400B38442 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +125,7 @@
 				AE5CD4672C209D9D00B38442 /* Assets.xcassets */,
 				AE5CD4922C20AFF700B38442 /* GoogleService-Info.plist */,
 				AE5CD4692C209D9D00B38442 /* Preview Content */,
+				AE5CD4A92C2A509700B38442 /* ImagePicker.swift */,
 			);
 			path = fashionAI;
 			sourceTree = "<group>";
@@ -179,6 +184,7 @@
 			packageProductDependencies = (
 				AE5CD48E2C20AF8400B38442 /* FirebaseAuth */,
 				AE5CD4902C20AF8400B38442 /* FirebaseFirestore */,
+				AE5CD4AB2C2A613400B38442 /* FirebaseStorage */,
 			);
 			productName = fashionAI;
 			productReference = AE5CD4602C209D9B00B38442 /* fashionAI.app */;
@@ -301,6 +307,7 @@
 				AE5CD49F2C290D6000B38442 /* HomePage.swift in Sources */,
 				AE5CD4A22C290FCA00B38442 /* Profile.swift in Sources */,
 				AE5CD4662C209D9B00B38442 /* ContentView.swift in Sources */,
+				AE5CD4AA2C2A509700B38442 /* ImagePicker.swift in Sources */,
 				AE5CD49D2C290D1200B38442 /* WelcomePage.swift in Sources */,
 				AE5CD4A42C290FDA00B38442 /* Camera.swift in Sources */,
 				AE5CD4642C209D9B00B38442 /* fashionAIApp.swift in Sources */,
@@ -657,6 +664,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AE5CD48D2C20AF8400B38442 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
+		};
+		AE5CD4AB2C2A613400B38442 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE5CD48D2C20AF8400B38442 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
