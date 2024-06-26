@@ -25,6 +25,8 @@
 		AE5CD4A82C291DD200B38442 /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5CD4A72C291DD200B38442 /* AppStateManager.swift */; };
 		AE5CD4AA2C2A509700B38442 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5CD4A92C2A509700B38442 /* ImagePicker.swift */; };
 		AE5CD4AC2C2A613400B38442 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = AE5CD4AB2C2A613400B38442 /* FirebaseStorage */; };
+		AE5CD4AE2C2BB98500B38442 /* Pictures.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5CD4AD2C2BB98500B38442 /* Pictures.swift */; };
+		AE5CD4B02C2BC24C00B38442 /* PhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5CD4AF2C2BC24C00B38442 /* PhotoManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		AE5CD4A52C290FE600B38442 /* Suggestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suggestions.swift; sourceTree = "<group>"; };
 		AE5CD4A72C291DD200B38442 /* AppStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateManager.swift; sourceTree = "<group>"; };
 		AE5CD4A92C2A509700B38442 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		AE5CD4AD2C2BB98500B38442 /* Pictures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pictures.swift; sourceTree = "<group>"; };
+		AE5CD4AF2C2BC24C00B38442 /* PhotoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,10 +126,12 @@
 				AE5CD49C2C290D1200B38442 /* WelcomePage.swift */,
 				AE5CD49E2C290D6000B38442 /* HomePage.swift */,
 				AE5CD4A72C291DD200B38442 /* AppStateManager.swift */,
+				AE5CD4A92C2A509700B38442 /* ImagePicker.swift */,
+				AE5CD4AD2C2BB98500B38442 /* Pictures.swift */,
 				AE5CD4672C209D9D00B38442 /* Assets.xcassets */,
 				AE5CD4922C20AFF700B38442 /* GoogleService-Info.plist */,
 				AE5CD4692C209D9D00B38442 /* Preview Content */,
-				AE5CD4A92C2A509700B38442 /* ImagePicker.swift */,
+				AE5CD4AF2C2BC24C00B38442 /* PhotoManager.swift */,
 			);
 			path = fashionAI;
 			sourceTree = "<group>";
@@ -306,10 +312,12 @@
 			files = (
 				AE5CD49F2C290D6000B38442 /* HomePage.swift in Sources */,
 				AE5CD4A22C290FCA00B38442 /* Profile.swift in Sources */,
+				AE5CD4B02C2BC24C00B38442 /* PhotoManager.swift in Sources */,
 				AE5CD4662C209D9B00B38442 /* ContentView.swift in Sources */,
 				AE5CD4AA2C2A509700B38442 /* ImagePicker.swift in Sources */,
 				AE5CD49D2C290D1200B38442 /* WelcomePage.swift in Sources */,
 				AE5CD4A42C290FDA00B38442 /* Camera.swift in Sources */,
+				AE5CD4AE2C2BB98500B38442 /* Pictures.swift in Sources */,
 				AE5CD4642C209D9B00B38442 /* fashionAIApp.swift in Sources */,
 				AE5CD4A82C291DD200B38442 /* AppStateManager.swift in Sources */,
 				AE5CD4A62C290FE600B38442 /* Suggestions.swift in Sources */,
