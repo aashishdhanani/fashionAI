@@ -9,10 +9,8 @@ import SwiftUI
 import Firebase
 
 struct WelcomePage: View {
-    
     @State private var showWelcomePopup = true
     @State private var showContent = false  // New state variable
-    
     
     var body: some View {
         ZStack {
@@ -28,7 +26,7 @@ struct WelcomePage: View {
             
             // Welcome popup
             if showWelcomePopup {
-                Color.black.opacity(0.4)
+                Color.black.opacity(0.6)
                     .edgesIgnoringSafeArea(.all)
                     .overlay(
                         WelcomePopupView(isPresented: $showWelcomePopup, onGetStarted: {
@@ -48,20 +46,23 @@ struct WelcomePopupView: View {
     var body: some View {
         VStack {
             Text("Welcome to FashionAI!")
-                .font(.title)
+                .font(.title).foregroundColor(.black)
                 .padding()
+                //.background(Color.red.opacity(0.3)) // Add background color for debugging
             
             Text("Use AI to upgrade your fashion sense! Click below to begin!")
                 .padding()
+                .foregroundColor(.black)
                 .multilineTextAlignment(.center)
+                //.background(Color.green.opacity(0.3)) // Add background color for debugging
             
             Button("Get Started") {
                 onGetStarted()  // Call the closure when "Get Started" is tapped
                 isPresented = false
             }
             .padding()
-            .background(Color.blue)
-            .foregroundColor(.white)
+            .background(Color.blue.opacity(0.5))
+            .foregroundColor(.black)
             .cornerRadius(10)
         }
         .padding()
@@ -74,3 +75,4 @@ struct WelcomePopupView: View {
 #Preview {
     WelcomePage()
 }
+
